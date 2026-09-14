@@ -1,0 +1,13 @@
+{
+    "1": "Le solde moyen sur les 3 derniers mois est-il positif ?",
+    "2": "Y a-t-il eu des incidents de paiement (rejets, impayés) dans les 6 derniers mois ?",
+    "3": "L'entreprise utilise-t-elle régulièrement son découvert autorisé (> 15 jours/mois) ?",
+    "4": "Y a-t-il eu des agios pour dépassement de découvert ?",
+    "5": "Le nombre de rejets de prélèvements est-il nul sur les 3 derniers mois ?",
+    "6": "Les encaissements sont-ils réguliers et récurrents (pas de concentration sur 1-2 clients) ?",
+    "7": "Les décaissements montrent-ils une gestion saine (pas de retards de paiement visibles) ?",
+    "8": "Y a-t-il eu des virements urgents ou des apports en compte courant d'associés répétés ?",
+    "9": "La variation du solde bancaire est-elle stable (écart-type < 30% du solde moyen) ?",
+    "10": "Y a-t-il des opérations suspectes ou inhabituelles (gros montants inexpliqués) ?"
+  }
+  

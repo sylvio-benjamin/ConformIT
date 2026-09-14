@@ -1,0 +1,44 @@
+Tu es un développeur Python expérimenté travaillant sur un projet FastAPI de gestion de risques (GRC). 
+Je veux que tu rédiges un script Python complet nommé `mapping_audit_entreprise.py` avec les fonctionnalités suivantes :
+
+Objectif :
+- Lire un seul fichier JSON d’audit d’une entreprise (ex : backend/audits/apple-france.json).
+- Extraire la clé "details" du JSON.
+- Pour chaque finding dans "details" (question, réponse, score, justification), mapper ce finding vers un risque standardisé et les réglementations associées.
+- Le mapping doit se faire via un fichier `backend/reglementations/conformite.json` contenant pour chaque risque :
+  - id_risque
+  - description_risque
+  - liste de réglementations
+  - mots_cles (pour matcher les questions)
+- Regrouper tous les risques dans une structure JSON par entreprise.
+
+Fonctionnalités du script :
+1. Prend en entrée le chemin d’un fichier d’audit.
+2. Lit le fichier et extrait la clé "details".
+3. Pour chaque finding, cherche une correspondance avec `conformite.json` via mots-clés ou question exacte.
+4. Ignore les findings sans correspondance.
+5. Crée un dictionnaire JSON avec l’entreprise comme clé et la liste des risques détectés comme valeur.
+6. Chaque risque inclut : id_risque, description_risque, réglementations, score.
+7. Sauvegarde le JSON final dans `backend/outputs/risques_{nom_entreprise}.json`.
+8. Le script doit être robuste et commenté, utilisable dans un projet FastAPI.
+
+Contraintes :
+- Utiliser uniquement des librairies Python standard : json, os, pathlib.
+- Commenter chaque étape du script.
+- Le script doit être clair et maintenable pour l’intégrer facilement dans le backend FastAPI existant.
+- Penser à l’extensibilité (plus tard, pouvoir traiter plusieurs audits ou intégrer directement dans la base GRC).
+
+Structure finale attendue du JSON :
+{
+  "nom_entreprise": [
+    {
+      "id_risque": "RIS001",
+      "description_risque": "...",
+      "reglementations": [...],
+      "score": 10
+    },
+    ...
+  ]
+}
+
+Rédige le code complet en Python prêt à être utilisé.

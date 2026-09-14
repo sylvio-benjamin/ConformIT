@@ -1,0 +1,50 @@
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.9
+
+# Data Processing
+# pandas>=2.0.0  # SUPPRIMÉ - Plus utilisé (remplacé par questions.json)
+openpyxl>=3.1.2
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# AI/ML
+# X.AI (Grok) - Utilise aiohttp directement (déjà dans Async I/O)
+
+# Auth
+PyJWT>=2.8.0
+bcrypt>=4.1.0
+email-validator>=2.0.0
+
+# PostgreSQL
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.12.0
+
+# Office Automation (OPTIONNEL - pour compatibilité uniquement, non utilisé en production)
+# xlwings>=0.30.0  # DÉSACTIVÉ - Remplacé par calculs.py
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Payment Processing
+stripe>=6.0.0
+
+# Object storage (S3 / R2) — import lazy, facultatif en local
+boto3>=1.34.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+cryptography>=41.0.0
+
+# Async I/O
+aiofiles>=23.0.0
+aiohttp>=3.9.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-14T08:58:50.707Z",
+  "answers": {
+    "framework": "fastapi",
+    "projectType": "saas",
+    "authentication": true,
+    "userAccounts": true,
+    "publicForms": true,
+    "api": true,
+    "fileUploads": true,
+    "payments": false,
+    "adminPanel": true,
+    "sensitiveData": true,
+    "publicEndpoints": true,
+    "captcha": false,
+    "mfa": false,
+    "cookieSessions": true
+  },
+  "modules": [
+    "config",
+    "headers",
+    "cors",
+    "https",
+    "rateLimit",
+    "bruteForce",
+    "botProtection",
+    "authentication",
+    "authorization",
+    "validation",
+    "uploads",
+    "api",
+    "logging",
+    "injection"
+  ]
+}

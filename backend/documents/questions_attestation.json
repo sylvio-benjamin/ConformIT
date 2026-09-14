@@ -1,0 +1,13 @@
+{
+  "1": "L'attestation est-elle à jour (date de validité future) ?",
+  "2": "Les coordonnées de l'assuré correspondent-elles à l'entreprise analysée ?",
+  "3": "Le numéro de police d'assurance est-il présent et lisible ?",
+  "4": "La compagnie d'assurance est-elle identifiée clairement ?",
+  "5": "Les garanties principales sont-elles détaillées ?",
+  "6": "Les montants assurés sont-ils spécifiés ?",
+  "7": "Le document comporte-t-il une signature ou un cachet officiel ?",
+  "8": "La couverture mentionne-t-elle le domaine d'activité adéquat ?",
+  "9": "Les exclusions ou limites de garantie sont-elles précisées ?",
+  "10": "L'attestation mentionne-t-elle une clause de renouvellement ou de reconduction ?"
+}
+

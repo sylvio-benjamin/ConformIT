@@ -1,0 +1,13 @@
+{
+    "1": "Le tableau des flux de trésorerie montre-t-il un flux opérationnel positif ?",
+    "2": "Les créances douteuses représentent-elles moins de 5% du total des créances ?",
+    "3": "Les stocks ont-ils une rotation rapide (< 90 jours) ?",
+    "4": "Les immobilisations sont-elles correctement amorties (taux > 50% pour ancien matériel) ?",
+    "5": "Y a-t-il des provisions pour risques importantes (> 10% des capitaux propres) ?",
+    "6": "Les produits exceptionnels représentent-ils moins de 10% du résultat net ?",
+    "7": "Les charges à payer sont-elles cohérentes avec l'activité (< 30 jours de charges) ?",
+    "8": "Les produits constatés d'avance sont-ils significatifs (indiquant des encaissements anticipés) ?",
+    "9": "Le report à nouveau est-il positif ou en amélioration ?",
+    "10": "Les subventions d'exploitation représentent-elles moins de 20% du résultat d'exploitation ?"
+  }
+  

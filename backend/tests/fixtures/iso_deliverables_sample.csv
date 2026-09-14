@@ -1,0 +1,4 @@
+id,deliverableType,supplementType,reference,title.en,title.fr,publicationDate,edition,icsCode,ownerCommittee,currentStage,replaces,replacedBy,languages,pages.en,scope.en
+100001,IS,,ISO/IEC 27001:2022,Information security management systems,Systèmes de management de la sécurité de l'information,2022-10-25,3,"[""35.030""]",ISO/IEC JTC 1/SC 27,6060,[],[],"[""en"",""fr""]",19,Fixture abstract — not the standard body.
+100002,IS,,ISO 9001:2015,Quality management systems — Requirements,Systèmes de management de la qualité — Exigences,2015-09-15,5,"[""03.120.10""]",ISO/TC 176/SC 2,6060,[],[],"[""en"",""fr""]",29,Fixture abstract — not the standard body.
+100003,IS,,ISO 99999:1999,Withdrawn fixture standard,Norme fixture retirée,1999-01-01,1,"[""01.040""]",ISO/TC 0,9599,[],"[100001]","[""en""]",5,Fixture withdrawn row.

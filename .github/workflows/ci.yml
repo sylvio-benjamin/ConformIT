@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Unit tests
+        env:
+          JWT_SECRET: ci-test-secret
+        run: pytest tests/test_security.py tests/test_idor.py tests/test_alembic.py tests/test_applicability.py tests/test_iso_catalog.py tests/test_analysis_jobs.py tests/test_compliance_evidence.py tests/test_grc_audits.py tests/test_billing_isolated.py tests/test_migrate_planners.py tests/test_calculs.py tests/test_parser.py tests/test_utils.py tests/test_alerts.py tests/test_process_memory.py tests/test_firebase_uid_removed.py tests/test_runtime_config.py tests/test_storage.py tests/test_storage_object.py tests/test_rate_limit.py tests/test_init_db_no_schema.py tests/test_health.py tests/test_scoring_engine.py -q
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_API_URL: http://localhost:8000

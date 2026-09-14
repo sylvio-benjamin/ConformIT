@@ -1,0 +1,13 @@
+{
+    "1": "L'entreprise est-elle bénéficiaire (résultat net positif) ?",
+    "2": "La marge brute (sur ventes) est-elle supérieure à 20% ?",
+    "3": "Le résultat d'exploitation (EBIT) est-il positif ?",
+    "4": "La marge nette est-elle supérieure à 5% ?",
+    "5": "L'EBITDA est-il positif ?",
+    "6": "Le chiffre d'affaires a-t-il progressé sur les 3 derniers exercices ?",
+    "7": "Les charges de personnel représentent-elles moins de 60% du CA ?",
+    "8": "Les charges financières représentent-elles moins de 5% du CA ?",
+    "9": "Le résultat exceptionnel impacte-t-il négativement le résultat net de plus de 20% ?",
+    "10": "La capacité d'autofinancement (CAF) est-elle positive ?"
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "1": "Le ratio de liquidité générale (actif circulant / dettes court terme) est-il supérieur à 1 ?",
+    "2": "Le fonds de roulement net global (FRNG) est-il positif ?",
+    "3": "Le besoin en fonds de roulement (BFR) est-il maîtrisé (< 90 jours de CA) ?",
+    "4": "Les capitaux propres sont-ils positifs ?",
+    "5": "Le ratio d'endettement (dettes financières / capitaux propres) est-il inférieur à 1 ?",
+    "6": "Les capitaux propres ont-ils augmenté sur les 3 derniers exercices ?",
+    "7": "La trésorerie nette est-elle positive ?",
+    "8": "Le ratio d'autonomie financière (capitaux propres / total passif) est-il supérieur à 20% ?",
+    "9": "Les créances clients représentent-elles moins de 90 jours de CA ?",
+    "10": "Les dettes fournisseurs sont-elles inférieures à 90 jours d'achats ?",
+    "11": "Le résultat net de l'exercice est-il positif ?",
+    "12": "La marge brute est-elle supérieure à 30% du chiffre d'affaires ?",
+    "13": "Le taux de croissance du chiffre d'affaires est-il positif ?",
+    "14": "Les charges financières sont-elles inférieures à 10% du résultat d'exploitation ?",
+    "15": "Le ratio de couverture des dettes (résultat d'exploitation / charges financières) est-il supérieur à 3 ?"
+  }
+

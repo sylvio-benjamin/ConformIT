@@ -1,0 +1,2 @@
+"""Tests pour l'application."""
+

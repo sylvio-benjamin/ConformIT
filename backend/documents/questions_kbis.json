@@ -1,0 +1,61 @@
+{
+  "1": "L'entreprise est-elle immatriculée au Registre du commerce et des sociétés (RCS) ?",
+
+  "2": "Le numéro SIREN de l'entreprise est-il présent et identifiable ?",
+
+  "3": "La dénomination sociale de l'entreprise est-elle clairement identifiable ?",
+
+  "4": "La forme juridique de l'entreprise est-elle identifiable ?",
+
+  "5": "La date d'immatriculation de l'entreprise est-elle indiquée ?",
+
+  "6": "L'entreprise est-elle immatriculée depuis plus de 3 ans ?",
+
+  "7": "L'entreprise est-elle actuellement en activité selon les informations du document ?",
+
+  "8": "Une date de début d'activité est-elle renseignée ?",
+
+  "9": "La date de début d'activité est-elle postérieure à la date d'immatriculation ?",
+
+  "10": "La date de début d'activité est-elle proche de la date d'immatriculation selon le seuil défini ?",
+
+  "11": "L'adresse du siège social est-elle renseignée ?",
+
+  "12": "Le siège social est-il situé en France ?",
+
+  "13": "Plusieurs établissements sont-ils enregistrés ?",
+
+  "14": "L'entreprise possède-t-elle au moins un établissement distinct de son siège social ?",
+
+  "15": "Le nombre d'établissements enregistrés est-il supérieur au seuil défini ?",
+
+  "16": "Une modification récente de l'adresse du siège est-elle identifiable dans les informations disponibles ?",
+
+  "17": "L'établissement principal est-il identifiable ?",
+
+  "18": "Le capital social de l'entreprise est-il renseigné ?",
+
+  "19": "Le capital social est-il supérieur au seuil défini ?",
+
+  "20": "Le capital social est-il variable ?",
+
+  "21": "La forme juridique de l'entreprise appartient-elle à une catégorie juridique déterminée ?",
+
+  "22": "La durée de la société est-elle renseignée ?",
+
+  "23": "La société est-elle constituée pour une durée déterminée ou indéterminée ?",
+
+  "24": "Au moins un dirigeant ou représentant légal est-il identifié ?",
+
+  "25": "La fonction de chaque dirigeant ou représentant légal est-elle identifiable ?",
+
+  "26": "Le nombre de dirigeants ou représentants légaux mentionnés est-il supérieur au seuil défini ?",
+
+  "27": "La nationalité d'au moins un dirigeant est-elle renseignée ?",
+
+  "28": "Un dirigeant de nationalité étrangère est-il identifiable lorsque cette information est explicitement disponible ?",
+
+  "29": "Un commissaire aux comptes est-il mentionné dans le document ?",
+
+  "30": "Le document contient-il une information nécessitant une analyse complémentaire selon les règles métier définies ?"
+}
